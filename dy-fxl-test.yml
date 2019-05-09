@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: dy-fxl
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      dbname: test
+server:
+  port: 3001
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:1001/eureka/
